@@ -1,0 +1,14 @@
+path: d:
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6
+names:
+  0: 'Hello, I can not speak'
+  1: 'Where are you from?'
+  2: 'How are you today?'
+  3: 'Yeah, My major is Civil Environmental & Engineering'
+  4: 'When are you go home?'
+  5: 'See you next time.'
