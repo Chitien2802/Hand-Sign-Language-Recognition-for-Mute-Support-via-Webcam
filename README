@@ -1,0 +1,38 @@
+# Hand Sign Language Recognition for Mute Support via Webcam
+
+## Overview
+Real-time hand sign language recognition system using deep learning to support communication for mute individuals.
+
+## Features
+- Real-time hand gesture detection using CNN
+- Live webcam integration
+- Text and speech output
+- User-friendly interface
+
+## Technologies
+- Python
+- TensorFlow/Keras
+- OpenCV
+- NumPy
+- Scikit-learn
+
+## Installation
+```bash
+pip install tensorflow keras opencv-python numpy scikit-learn
+```
+
+## Usage
+```bash
+python train.py      # Train the model
+python test.py       # Test the model
+```
+
+## Project Structure
+```
+├── train.py          # Model training script
+├── test.py           # Model testing script
+├── data/             # Dataset directory
+└── models/           # Trained models
+```
+
+## License
